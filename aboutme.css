@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color:rgb(214, 246, 249);
+    font-size: 20px;
+    /*comment*/
+    margin: px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+.header{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+}
+
+h1{
+    text-align: center;
+    font-size: px;
+}
+
+.space{
+    padding-top: 40px;
+}
+
+/* if a class, use dot */
+.grayrow{
+    text-align: center;
+    background-color: rgb(245, 240, 211);
+    padding: 30px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.coursetile{
+    background-color: rgb(143, 182, 157);
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    /* transition: all .2s ease-in-out; */
+}
+
+.coursetile:hover{
+    background-color: rgb(176, 217, 185);
+    color: white;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+button, select{
+    margin: 1vh;
+    background-color: white;
+    border: none;
+    /* makes border round */
+    border-radius: 1vw;
+    cursor: pointer;
+    /* creates shadow */
+    padding: 1vw;
+}

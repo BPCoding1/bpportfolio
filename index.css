@@ -1,0 +1,139 @@
+/* .wholePage{ */
+    /* margin: 0px; */
+    /* background-color:rgb(250, 248, 239); */
+    /* so color is entire page; changes to fit device on: */
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* gonna make this a flexible component */
+    /* display: flex; */
+    /* centered them halfway down pg */
+    /* align-items: top; */
+    /* justified it left to right */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+
+/* } */
+
+/* .title{ */
+    /* align-items: top; */
+/* } */
+
+/* .inner-row{ */
+    /* align-items: center; */
+    /* justify-content: center; */
+/* } */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color:rgb(214, 246, 249);
+    font-size: 20px;
+    /*comment*/
+    margin: px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+.header{
+    font-family: "Playfair Display", serif;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: px;
+}
+
+.space{
+    padding-top: 40px;
+}
+
+button, select{
+    margin: 1vh;
+    background-color: white;
+    border: none;
+    /* makes border round */
+    border-radius: 1vw;
+    cursor: pointer;
+    /* creates shadow */
+    padding: 1vw;
+}
+
+/*not used yet:  */
+
+
+/* if a class, use dot */
+.grayrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(245, 240, 211);
+    padding: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.secondrow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(161, 205, 232);
+        padding: 30px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        margin: 0px;
+}
+
+.thirdrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(23, 97, 143);
+    padding: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+
+.coursetile{
+
+    background-color: rgb(143, 182, 157);
+    color: white;
+    text-align: left;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 40vw;
+    height: 20vh;
+    /* transition: all .2s ease-in-out; */
+}
+
+#picture2{
+    background-image: url("/IMG_3359.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 
+}
+
+#picture1{
+    background-image: url("/IMG_1974.JPG");
+     background-size: contain;
+
+     background-position: center
+ }
+
+#picture{
+    background-image: url("/IMG_1851.JPG");
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center
+ }
