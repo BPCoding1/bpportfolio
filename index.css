@@ -125,7 +125,7 @@ button, select{
 }
 
 #picture1{
-    background-image: url("/IMG_1974.JPG");
+    background-image: url("IMG_1974.JPG");
      background-size: contain;
 
      background-position: center
