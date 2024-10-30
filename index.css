@@ -118,7 +118,7 @@ button, select{
 }
 
 #picture2{
-    background-image: url("/IMG_3359.JPG");
+    background-image: url("IMG_3359.JPG");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center 
@@ -132,7 +132,7 @@ button, select{
  }
 
 #picture{
-    background-image: url("/IMG_1851.JPG");
+    background-image: url("IMG_1851.JPG");
      background-size: contain;
      background-repeat: no-repeat;
      background-position: center
