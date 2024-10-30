@@ -81,14 +81,14 @@ button, select{
 }
 
 #picture{
-   background-image: url("/IMG_2464.jpeg");
+   background-image: url("IMG_2464.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center
 }
 
 #picture2{
-    background-image: url("/IMG_1499.JPG");
+    background-image: url("IMG_1499.JPG");
      background-size: contain;
      background-repeat: no-repeat;
      background-position: center
